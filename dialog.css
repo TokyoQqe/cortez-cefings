@@ -1,0 +1,14 @@
+.kv
+{
+	width: 150px;
+	height: 150px;
+	background: #00000085;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 140px;       /* The same as your div height */
+	font-size: 30px;
+	color: #FFFFFF;
+    margin-top: 785px;
+    margin-left: 879px;
+
+}
