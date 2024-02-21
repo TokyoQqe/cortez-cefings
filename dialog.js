@@ -1,7 +1,7 @@
 $(this).keydown(function(eventObject){
     if (eventObject.which == 27) //буква ESC
     {
-            cef.hide(true); 
+            cef.emit("close", "close");
             cef.set_focus(false); 
     }
         
