@@ -10,7 +10,8 @@
             if (eventObject.which == 67) //буква ESC
             {
                 cef.emit("Fishes","Fishes")
-		cef.hide(true); 
+		cef.emit("close", "close");
+		cef.set_focus(false);
             }
                 
         });
